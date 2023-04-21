@@ -26,7 +26,7 @@ jobs:
           version: 'latest'
 
       - name: Build
-        run: trunk build
+        run: trunk build --public-url popeye-test # !!IMPORTANT!!
       - name: Run tests
         run: cargo test --verbose
 
