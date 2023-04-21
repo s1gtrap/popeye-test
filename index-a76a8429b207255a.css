@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Quicksand";
   font-weight: 300;
-  src: local("Quicksand"), url("/Quicksand/Quicksand-Light.ttf") format("truetype");
+  src: local("Quicksand"), url("Quicksand/Quicksand-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "Quicksand";
   font-weight: 400;
-  src: local("Quicksand"), url("/Quicksand/Quicksand-Regular.ttf") format("truetype");
+  src: local("Quicksand"), url("Quicksand/Quicksand-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Quicksand";
   font-weight: 500;
-  src: local("Quicksand"), url("/Quicksand/Quicksand-Medium.ttf") format("truetype");
+  src: local("Quicksand"), url("Quicksand/Quicksand-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Quicksand";
   font-weight: 600;
-  src: local("Quicksand"), url("/Quicksand/Quicksand-SemiBold.ttf") format("truetype");
+  src: local("Quicksand"), url("Quicksand/Quicksand-SemiBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Quicksand";
   font-weight: 700;
-  src: local("Quicksand"), url("/Quicksand/Quicksand-Bold.ttf") format("truetype");
+  src: local("Quicksand"), url("Quicksand/Quicksand-Bold.ttf") format("truetype");
 }
 @media (min-width: 800px) {
   main {
