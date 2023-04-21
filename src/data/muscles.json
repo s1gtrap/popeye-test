@@ -1,0 +1,18 @@
+{
+  "BicepsBrachii": {
+    "name": "Biceps Brachii",
+    "short_name": "Biceps"
+  },
+  "TricepsBrachii": {
+    "name": "Triceps Brachii",
+    "short_name": "Triceps"
+  },
+  "GluteusMaximus": {
+    "name": "Gluteus Maximus",
+    "short_name": "TODO"
+  },
+  "PectoralisMajor": {
+    "name": "Pectoralis Major",
+    "short_name": "TODO"
+  }
+}

@@ -1,0 +1,156 @@
+@font-face
+{
+    font-family: 'Quicksand';
+    font-weight: 300;
+
+    src: local('Quicksand'), url('/Quicksand/Quicksand-Light.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Quicksand';
+    font-weight: 400;
+
+    src: local('Quicksand'), url('/Quicksand/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Quicksand';
+    font-weight: 500;
+
+    src: local('Quicksand'), url('/Quicksand/Quicksand-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Quicksand';
+    font-weight: 600;
+
+    src: local('Quicksand'), url('/Quicksand/Quicksand-SemiBold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Quicksand';
+    font-weight: 700;
+
+    src: local('Quicksand'), url('/Quicksand/Quicksand-Bold.ttf') format('truetype');
+}
+
+
+$primary: #9437c9;
+$secondary: #6bc836;
+
+
+@media (min-width: 800px)
+{
+    main
+    {
+        width: 800px !important;
+        margin: 0 auto;
+    }
+    .set,
+    button
+    {
+        width: 768px;
+    }
+}
+
+html,
+body
+{
+    font-family: Quicksand;
+}
+
+body
+{
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+
+    margin: 0 auto;
+
+    background: url(/noisy.png) repeat, linear-gradient(to top, #318000, #6bc836);
+    background-attachment: fixed;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-sizing: border-box;
+    width: 100%;
+
+    color: white;
+
+    > *
+    {
+        flex: 1;
+    }
+}
+
+.set
+{
+    font-weight: 300;
+
+    box-sizing: border-box;
+    margin: 16px;
+
+    border: solid 1px darken($primary, 10%);
+    border-radius: 6px;
+    background: linear-gradient(to top, darken($primary, 5%), $primary);
+
+    > *
+    {
+        margin: 16px;
+    }
+
+    select
+    {
+        width: 100%;
+        min-height: 48px;
+    }
+
+    ul
+    {
+        margin: 0;
+        padding-left: 0;
+
+        list-style: none;
+
+        li
+        {
+            font-size: 1rem;
+
+            padding: 16px;
+
+            background: #fff1;
+        }
+
+        li:nth-child(2n)
+        {
+            background: none;
+        }
+    }
+}
+
+button
+{
+    font-family: Quicksand;
+    font-size: 1.5em;
+    font-weight: 300;
+
+    box-sizing: border-box;
+    min-height: 72px;
+    margin: 16px;
+
+    color: white;
+    border: solid 1px darken($primary, 10%);
+    border-radius: 6px;
+    background: linear-gradient(to top, darken($primary, 5%), $primary);
+    box-shadow: 2px 2px 16px 0 rgba(0, 0, 0, .2);
+}

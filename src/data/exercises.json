@@ -1,0 +1,22 @@
+{
+  "BarbellCurl": {
+    "name": "Barbell Curl",
+    "muscle": "BicepsBrachii",
+    "equipment": "Barbell"
+  },
+  "DumbbellCurl": {
+    "name": "Dumbbell Curl",
+    "muscle": "BicepsBrachii",
+    "equipment": "Dumbbell"
+  },
+  "BenchPress": {
+    "name": "Bench Press",
+    "muscle": "PectoralisMajor",
+    "equipment": "BarbellBench"
+  },
+  "InclineBenchPress": {
+    "name": "Incline Bench Press",
+    "muscle": "PectoralisMajor",
+    "equipment": "BarbellBench"
+  }
+}
